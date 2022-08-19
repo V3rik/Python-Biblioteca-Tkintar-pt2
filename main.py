@@ -90,7 +90,7 @@ botao_dado = Button(programa, command=coletar_dados, text="Confirmar", width=25,
 botao_dado.grid(row=6, column=3)
 
 
-#criando botão apagar
+#criando botão sair
 botao_apagar = Button(programa, command=programa.quit, text='Fechar Programa', width=25, height=3, relief='raised', fg='#000')
 botao_apagar.grid(row=8, column=3)
 
